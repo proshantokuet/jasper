@@ -1,0 +1,28 @@
+INSERT INTO core.meeting_type (id, "name", status, "type", uuid)
+VALUES(1, 'UnCC Meeting', true, 'OMM', '0'),
+(2, 'UzCC Meeting', true, 'OMM', '0'),
+(3, 'DCC Meeting', true, 'OMM', '0'),
+(4, 'RCC Meeting', true, 'OMM', '0'),
+(5, 'PIMC Meeting', true, 'OMM', '0'),
+(6, 'PSC Meeting', true, 'OMM', '0'),
+(7, 'Internal Coordination Meeting (Upazila Level)', true, 'OMM', '0'),
+(8, 'Internal Coordination Meeting (District Level)', true, 'OMM', '0'),
+(9, 'Internal Coordination Meeting (Central)', true, 'OMM', '0'),
+(10, 'IMMC', true, 'OMM', '0'),
+(11, 'Advocacy Meeting / Workshop', true, 'OMM', '0')
+;
+
+
+INSERT INTO core.meeting_type (id, "name", status, "type", uuid)
+VALUES(12, 'Union Integrated Work Plan', true, 'WM', '0'),
+(13, 'Upazila Integrated Work Plan', true, 'WM', '0'),
+(14, 'District Integrated Work Plan', true, 'WM', '0')
+;
+
+
+INSERT INTO core.meeting_type (id, "name", status, "type", uuid)
+VALUES(15, 'CHTDB Office', true, 'PL', '0'),
+(16, 'MoCHT Office', true, 'PL', '0'),
+(17, 'Other', true, 'PL', '0')
+;
+
